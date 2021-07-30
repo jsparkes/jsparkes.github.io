@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Simple Blog</title>
+    <atom:link
+      href="http://jsparkes.github.io/feed.xml"
+      rel="self" type="application/rss+xml" />
+    <link>http://jsparkes.github.io/</link>
+    <description><![CDATA[]]></description>
+    <language>en</language>
+    <pubDate>Fri, 30 Jul 2021 00:00:00 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Jul 2021 03:33:52 -0400</lastBuildDate>
+    <generator>weblorg 0.1.0 (https://emacs.love/weblorg)</generator>
+    <webMaster>web@master (Blog Author)</webMaster>
+    <image>
+      <url>http://jsparkes.github.io/media/img/8bitme.png</url>
+      <title>Blog Author</title>
+      <link>http://jsparkes.github.io/</link>
+    </image>
+
+    
+    <item>
+      <title>Initial post about using weblorg</title>
+      <link>http://jsparkes.github.io/posts/initial-post-about-using-weblorg.html</link>
+      <author>Jeff Sparkes &lt;jsparkes@gmail.com&gt;</author>
+      <guid isPermaLink="false">http://jsparkes.github.io/posts/initial-post-about-using-weblorg.html</guid>
+      
+        <pubDate>Fri, 30 Jul 2021 00:00:00 -0400</pubDate>
+      
+      <description><![CDATA[<p>
+<i>Note: I didn't call it "first post"</i>
+</p>
+
+<p>
+This is an experimental weblog built with <a href="https://emacs.love/weblorg/">weblorg</a>.  Weblorg is a
+static web site generator written entirely in emacs, using org-mode
+files.  I have tried several other org-mode -&gt; blog packages with
+limited success.
+</p>
+
+<p>
+This one seems to be the simplest to configure for use on github.io.
+Not a lot of documentation yet, but it includes a sample that got me
+over the hump.
+</p>
+
+<p>
+Not a lot of features yet, but it does handle <b>RSS</b>.  It does not have
+support for <b>tags</b>, but I probably wouldn't post enough to make actual
+use of them. 
+</p>
+]]></description>
+    </item>
+    
+
+  </channel>
+</rss>
