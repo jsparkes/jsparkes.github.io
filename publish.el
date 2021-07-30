@@ -32,6 +32,11 @@
 
 (require 'weblorg)
 
+(weblorg-site
+ :base-url "http://jsparkes.github.io"
+ ;; :theme #'weblorg-theme-autodoc
+ )
+
 ;; Generate blog posts
 (weblorg-route
  :name "posts"
