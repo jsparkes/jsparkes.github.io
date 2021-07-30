@@ -20,7 +20,7 @@
     <pubDate>{{ posts | first | getattr("date") | strftime("%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
     <lastBuildDate>{{ now() | strftime("%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
     <generator>{{ meta.generator }}</generator>
-    <webMaster>web@master (Blog Author)</webMaster>
+    <webMaster>jsparkes@gmail.com (Jeff Sparkes)</webMaster>
     <image>
       <url>{{ url_for("index") }}media/img/8bitme.png</url>
       <title>Blog Author</title>
@@ -31,7 +31,7 @@
     <item>
       <title>{{ post.title }}</title>
       <link>{{ url_for("posts", slug=post.slug) }}</link>
-      <author>{{ post.author|default("author@mail.com (Blog Author)") }}</author>
+      <author>{{ post.author|default("jsparkes@gmail.com (Jeff Sparkes)") }}</author>
       <guid isPermaLink="false">{{ url_for("posts", slug=post.slug) }}</guid>
       {% if post.date is defined %}
         <pubDate>{{ post.date|strftime("%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
