@@ -2,7 +2,7 @@
 #+DATE: <2021-07-30>
 #+AUTHOR: Jeff Sparkes <jsparkes@gmail.com>
 
-/Note: I didn't call it "first post"/
+/Note: I didn't call it "first post"./
 
 This is an experimental weblog built with [[https://emacs.love/weblorg/][weblorg]].  Weblorg is a
 static web site generator written entirely in emacs, using org-mode
@@ -15,4 +15,5 @@ over the hump.
 
 Not a lot of features yet, but it does handle *RSS*.  It does not have
 support for *tags*, but I probably wouldn't post enough to make actual
-use of them. 
+use of them.  The look is pretty plain, I suspect that the style.css
+isn't being loaded properly.  Time to learn about CSS. 

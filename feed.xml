@@ -18,7 +18,7 @@
     <description><![CDATA[]]></description>
     <language>en</language>
     <pubDate>Fri, 30 Jul 2021 00:00:00 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Jul 2021 03:33:52 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jul 2021 04:08:39 -0400</lastBuildDate>
     <generator>weblorg 0.1.0 (https://emacs.love/weblorg)</generator>
     <webMaster>web@master (Blog Author)</webMaster>
     <image>
@@ -37,7 +37,7 @@
         <pubDate>Fri, 30 Jul 2021 00:00:00 -0400</pubDate>
       
       <description><![CDATA[<p>
-<i>Note: I didn't call it "first post"</i>
+<i>Note: I didn't call it "first post".</i>
 </p>
 
 <p>
@@ -56,7 +56,8 @@ over the hump.
 <p>
 Not a lot of features yet, but it does handle <b>RSS</b>.  It does not have
 support for <b>tags</b>, but I probably wouldn't post enough to make actual
-use of them. 
+use of them.  The look is pretty plain, I suspect that the style.css
+isn't being loaded properly.  Time to learn about CSS. 
 </p>
 ]]></description>
     </item>
